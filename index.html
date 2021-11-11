@@ -4,11 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" ></script>
+    <link rel="stylesheet" href="style.css"></stylesheet>
+    <script src="script.js" defer></script>
     <title>Document</title>
-    
 </head>
 <body>
-
+    <h1>ROCK-PAPER-SCISSORS</h1>
+<div class="field">
+    <div class="score">
+        <div id="playerScore" class="playerScore">
+            <div id="_1" class="box">1</div>
+            <div id="_2" class="box">2</div>
+            <div id="_3" class="box">3</div>
+            <div id="_4" class="box">4</div>
+            <div id="_5" class="box">5</div>
+        </div>
+        <div id="computerScore" class="computerScore">
+            <div id="1_"class="box one">1</div>
+            <div id="2_"class="box two">2</div>
+            <div id="3_"class="box three">3</div>
+            <div id="4_"class="box four">4</div>
+            <div id="5_"class="box five">5</div>
+        </div>
+    </div>
+    <div id="game">
+        <p>Player Score and Computer Score</p>
+    </div>
+    <div class="images">
+        <div class="playerImage"></div>     
+        <div class="cpuImage"></div>
+    </div>
+    <div class="results">
+        <div id="player">
+            <p>Player: Not Selected</p>
+        </div>
+        <div id="computer">
+            <p>Computer: Not Selected</p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button id="rock">rock</button>
+        <button id="paper">paper</button>
+        <button id="scissors">scissors</button>
+    </div>
+</div>
 </body>
 </html>

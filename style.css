@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+#game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#player,
+#computer,
+.results {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+.score {
+    display: flex;
+    justify-content: space-around;
+}
+.playerScore,
+.computerScore {
+    display: flex;
+    width: 33%;
+    gap: 10px;
+  
+}
+h1 {
+    display: flex;
+    justify-content: center;
+}
+.winPlayer {
+    background-color: blue;
+}
+.winComputer {
+    background-color: red;
+}
+
+.box {
+    display: flex;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    height: 80vh;
+    width: 75%;
+    border: 1px solid black;
+    background-color: 	#E0FFFF;
+ }
+
+ .buttons {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+ }
+ 
+ button {
+     border-radius: 10px;
+     width: 33%;
+ }
+ button:hover {
+    background-color: grey;
+ }
+ 
+.images {
+     display: flex;
+     flex-direction: row;
+ }
+img {
+    height: 75%;
+    width: 75%;
+}
+ .playerImage,
+ .cpuImage {
+    display: flex;
+    width: 50%;
+    height: 55vh;
+    justify-content: center;
+    align-items: center;
+ }
